@@ -1,0 +1,76 @@
+#include<iostream>
+using namespace std;
+class birthday
+{
+public:
+    //data member
+    string name;
+    string mail;
+    string BOD;
+
+
+    //member function
+    void show()
+    {
+
+    }
+
+};
+int main()
+
+{
+    birthday b1,b2,b3,b4,b5;//variable,object
+
+    b1.name="a";
+    b1.mail="a@gmail.com";
+    b1.BOD="1 January 2002";
+
+    b2.name="b";
+    b2.mail="b@gmail.com";
+    b2.BOD="1 February 2002";
+
+    b3.name="c";
+    b3.mail="c@gmail.com";
+    b3.BOD="1 March 2002";
+
+    b4.name="d";
+    b4.mail="d@gmail.com";
+    b4.BOD="1 April 2002";
+
+    b5.name="e";
+    b5.mail="e@gmail.com";
+    b5.BOD="1 May 2002";
+
+    cout<<"Enter name to be searched:  ";
+    cin>>b4.name;
+
+
+    cout<<"Name   :"<<b1.name
+        <<"\nmail :"<<b1.mail
+        <<"\nBOD  :"<<b1.BOD<<endl;
+
+
+   cout<<"\nName  :"<<b2.name
+       <<"\nmail  :"<<b2.mail
+       <<"\nBOD   :"<<b2.BOD<<endl;
+
+   cout<<"\nName  :"<<b3.name
+       <<"\nmail  :"<<b3.mail
+       <<"\nBOD   :"<<b3.BOD<<endl;
+
+   cout<<"\nName  :"<<b4.name
+       <<"\nmail  :"<<b4.mail
+       <<"\nBOD   :"<<b4.BOD<<endl;
+
+   cout<<"\nName  :"<<b5.name
+       <<"\nmail  :"<<b5.mail
+       <<"\nBOD   :"<<b5.BOD<<endl;
+
+   b1.show();
+   b2.show();
+   b3.show();
+   b4.show();
+   b5.show();
+
+   return 0;
+}
